@@ -13,19 +13,21 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
-        android:textSize="32dp"
+        android:textSize="25dp"
         android:text="Welcome back" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
+        android:textSize="20dp"
         android:hint="Username" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:textSize="20dp"
         android:hint="Password" />
 
     <Button
@@ -35,6 +37,8 @@
         android:layout_marginTop="50dp"
         android:textAllCaps="false"
         android:onClick="toActivity3"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
         android:text="Continue" />
 
     <TextView
